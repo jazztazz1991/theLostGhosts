@@ -1,0 +1,51 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    color: black;
+}
+header{
+    margin-top: 15px;
+    overflow: auto;
+    background-color: rgba(90,246,59,0.3);
+    
+}
+#logo{
+    float: left;
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+}
+#title{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav a{
+    padding:5px;
+    color: steelblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+#bungieFeed{
+    margin-top: 5px;
+    padding: 5px;
+    float: left;
+    width: 45%;
+    background-color: rgba(90,246,59,0.3);
+}
+#channelFeed{
+    margin-top: 5px;
+    padding: 5px;
+    width: 45%;
+    float: right;
+    background-color: rgba(90,246,59,0.3);
+}
+
+iframe{
+    padding-top: 20px;
+}
+#chat{
+    float: right;
+}
